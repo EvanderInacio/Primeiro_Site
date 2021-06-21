@@ -3,78 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <title>Code desenvolvimento de site</title>
+    <link rel="icon" href="imagem/icone logo.png">
     <link rel="stylesheet" type="text/css" href="estilo.css"> 
+    <script type="text/javascript" src="/main.js"></script>
+ 
 </head>
 
 <body class="color-page">
-
     <div class="menu principal"> 
         <header> 
-
             <div class="logo">
-                <a href="index.html"></a>
-                <img src="imagem/logofooter.png" alt="logo do site"> 
-                 
+                <a href="index.html"><img src="imagem/logofooter.png" alt="logo do site"></a>   
             </div>
             <nav> 
                 <ul> 
-                    <li><a href="index.html"> home</a></li>
-                    <li><a href="clientes.html"> clientes</a></li>
-                    <li><a href="sobre.html"> sobre</a></li>
-                    <li><a href="contato.html"> contato</a></li>
+                  <li><a href="index.html"> Início</a></li>
+                  <li><a href="sobre.html"> Quem Somos</a></li>
+                  <li><a href="carreira.html"> Trabalhe Conosco</a></li> 
+                  <li><a href="orcamento.html">Solicite um orçamento!</a></li>                 
                 </ul>
             </nav>
         </header>
-
-        <section id="banner"> 
-            <img src="imagem/banner.jpg" alt="banner-topo">
-        </section>
-
-
-        <div id="abrir" class="modalDialog">
-            <div>
-              <a href="#close" class="close">X</a>
-              <h1>Tudo sobre html</h1>
-              <p><strong>Html</strong> <i>(abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto")</i> é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores <i>wikipedia.org</i></p>  
-             <img src="imagem/html5.png" alt="logo html5">
-           </div>
-          </div>
-          
-          <div id="abrir1" class="modalDialog"> 
-              <div>
-                  <a href="#close" title="Close" class="close">X</a>
-                  <h1>Tecnologia Realidade Aumentada</h1>
-                  <p>e uma forma simples, <b>Realidade Aumentada</b> é uma tecnologia que permite que o mundo virtual seja misturado ao real, possibilitando maior interação e abrindo uma nova dimensão na maneira como nós executamos tarefas, ou mesmo as que nós incumbimos às máquinas. Assim, se você pensava que objetos pulando para fora da tela eram elementos de filmes de ficção científica, está na hora de mudar seus conceitos. Aliás, o que acontece com a <b>Realidade Aumentada</b> é o contrário: você pulará para dentro do mundo virtual para interagir com objetos que só estão limitados à sua imaginação.<i>tecmundo.com.br</i></p>
-              </div>
-          </div>
-          
-          <div id="abrir2" class="modalDialog"> 
-              <div>
-                  <a href="#close" title="Close" class="close"> X</a>
-                  <h1>Acessibilidade</h1>
-                  <p>A web é composta por um imenso conjunto de documentos, que nos são apresentados em pequenas porções chamadas de páginas web. Essas páginas e documentos possuem muitas interligações entre seus conteúdos, feitas por conexões chamadas de hiperlinks. Cada hiperlink cria uma relação com outra página (do mesmo ou de algum outro documento) ou com o endereço de outra parte da mesma página. Por exemplo, ao ler a versão web desta cartilha, dependendo do interesse e da necessidade, o leitor certamente irá utilizar os hiperlinks para avançar a outro item do mesmo capítulo, a outro capítulo ou a outro documento que não pertence a esta cartilha.<i>w3c.br</i></p>
-              </div>
-          </div> 
-    </div>
-    
-<!--rodapé da pagina-->
- <footer> 
-   <div class="footer-text">
-       <h3>Tudo sobre html</h3>
-       <p>Saiba o que é Html, e como sua empresa pode usufruir desses sites.- <a href="#abrir">clique aqui</a></p>
    </div>
 
-    <div class="footer-text">
-      <h3>Tecnologia Realidade Aumentada</h3>
-      <p> Você sabe o que é realidade aumentada? Entenda como é essa nova tecnologia.- <a href="#abrir1">clique aqui</a></p>
+    <section id="banner"> 
+            <img src="imagem/banner.png" alt="banner-topo" >
+   </section>
+
+        <div class="animate" > <!--mensagem inicial--> 
+            <p id="mensagem">
+             Seja bem-vindo<br> á Code desenvolvimentos <br><br></p>
+             <p id="converse"> Converse agora com nossos consultores pelo <br> 
+             <b id="contato">Whatsapp: (11) 9999-9999</b> ou <br> <b id="contato"> Email: contato@code.com.br</b><br>
+             e conheça nossas soluções em transformação digital. 
+            </p>
+        </div>
+
+  <footer> <!--acesso rapido do site-->
+        <div class="footer-text">
+         <p>Acesso rapido aos topicos aos topicos</p><br>
+         <button class="btn-footer" type="button"><a href="#solucao">Soluções</a></button>
+         <button class="btn-footer" type="button"><a href="#servico">Serviços</a></button>
+         <button class="btn-footer" type="button"><a href="#consultoria">Consultoria</a></button><br><br>
+         <button class="btn-footer" type="button"><a href="#aberto">HTML</a></button>
+          <button class="btn-footer" type="button"><a href="#aberto1">CSS</a></button>
+          <button class="btn-footer" type="button"><a href="#aberto2">JavaScript</a></button>
+        </div>
+        <p class="separa"></p>
+     </footer>
+
+ <section class="corpo"> <!--pagina toda-->
+
+    <div class="solucao" id="solucao"> <!--soluções-->
+        <div class="personalizadas">
+          <p id="inovacao">
+          Soluções personalizadas de tecnologia e inovação </p><br><br>
+          <p>Mais do que serviços, trabalhamos com soluções personalizadas de tecnologia e inovação. <br><br>
+          Cada projeto desenvolvido por nós é resultado de uma consultoria completa, que considera entre outros pontos:
+          </p>
+          <img id="imagem-personalizada" src="imagem/soluções.png" alt="soluções">
+        </div>
+
+      <div class="necessidades"><button class="btnsolucao">
+          <p>
+            Necessidades dos <br> clientes
+          </p>
+          <img id="imagem-necessidades" src="imagem/necessidade do cliente.png" alt="cliente"></button>
+        </div>
+
+        <div class="necessidades" id="regras"><button class="btnsolucao">
+          <p> 
+            Regras do Negócio
+          </p>
+          <img id="imagem-regras" src="imagem/regras de negocio.png" alt="regras"></button>
+        </div>
+
+       <div class="necessidades" id="usuario"><button class="btnsolucao">
+          <p>
+            Experiência do usuário
+          </p>
+          <img id="imagem-usuario" src="imagem/experiencia do usuario.png" alt="usuario">
+        </div> 
+        <p class="separa"></p></button>
     </div>
 
-    <div class="footer-text">
-      <h3>Acessibilidade</h3>
-      <p> Torne seu site acessivo com 5 dicas indipensaveis para qualquer site.- <a href="#abrir2">clique aqui</a></p>
+    <div> <!--serviços-->
+      <div class="servico" id="servico">
+        <p>
+           Serviços <br>
+           Conheça alguns de nossos serviços.
+          </p>
+      </div>
+          
+      <div class="softwares">
+        <img src="imagem/icone Softwares.png" alt="icone software">
+
+        <p>
+          Softwares <br><br><br>
+          Alta performance, usabilidade e integração completa em software personalizado.
+        </p>
+           
+        <img src="imagem/Softwares.png" alt="software">
+        </div>
+     <br><br><br>
+
+      <div class="softwares" id="chat">
+        <section><img src="imagem/icone-chat.png" alt="chat"></section>
+        <p>
+          Chatbots <br><br><br>
+          Automação de tarefas e disrupção em Customer Experience.
+        </p>
+          <section class="chatbots"><img src="/imagem/Chatbots.png" alt="Chatbots"></section>
+      </div>
+     <br><br><br>
+
+      <div class="dados">
+        <section><img src="/imagem/icone banco de dados.png" alt="icone dados"></section>
+        <p>
+          Business Intelligence/Big Data <br><br><br>
+          Gestão estratégica, vantagem competitiva e negócios inteligentes.
+       </p>
+        <section class="banco"><img src="imagem/banco_de_dados.png" alt="banco de dados"></section>
+      </div>
+        <p class="separa"></p>
     </div>
 
- </footer>
+    <div class="consultoria" id="consultoria"> <!-- bloco da Consultoria-->
+      <p>
+         <p class="titulo"> Consultoria</p> <br>
+        <p class="consultoria1"> Conte com uma consultoria completa e saiba exatamente qual solução é a melhor para a sua empresa. Os nossos especialistas farão uma análise detalhada do seu negócio, considerando viabilidade técnica, arquitetura sugerida, riscos e estratégias. </p>
+
+         <section class="consultor"><img src="/imagem/consultoria.png" alt="consultor"></section><p class="text"></p>
+
+          <p class="text"> <b><img src="imagem/icone consultoria.png" alt="icone"> Arquitetura sugerida</b></p>    
+
+          <p class="text"> Saiba quais são os serviços, softwares, hardwares, redes, bancos de dados, sistemas e servidores mais adequados ao projeto.</p>
+
+          <p class="text">  <b><img src="imagem/icone consultoria.png" alt="icone"> Riscos</b></p>
+
+          <p class="text">  Entenda quais são os principais riscos envolvidos e conheça os planos de contingência elaborados para cada cenário.</p>
+
+          <p class="text"> <b><img src="imagem/icone consultoria.png" alt="icone"> Viabilidade técnica</b></p>
+
+          <p class="text"> Conheça os pré-requisitos técnicos, operacionais, de segurança, desempenho e outros recursos primordiais para alcançar o objetivo desejado.</p>
+
+          <p class="text"> <b><img src="imagem/icone consultoria.png" alt="icone"> Valores de investimento</b></p>
+
+          <p class="text"> Receba uma avaliação detalhada do investimento necessário, realizada com base em indicadores como TCO, ROI e ROR da solução.</p>
+      </p>
+      <p class="separa"></p>
+    </div>
+
+    <div class="exemplo" id="aberto"> <!--html-->
+        
+       <div class="titulo"><img  src="imagem/html titulo.png" alt="ht"></div>
+       <div class="imagem"><img  src="imagem/html.png" alt="html"></div> 
+
+          <p id="texto">
+           <p class="text"> O HTML foi criado em 1991, por Tim Berners-Lee, no CERN (European Council for Nuclear Research) na suíça. Inicialmente o HTML foi projetado para interligar instituições de pesquisa próximas, e compartilhar documentos com facilidade. Em 1992, foi liberada a biblioteca de desenvolvimento WWW ( World Wide Web), uma rede de alcance mundial, que junto com o HTML proporcionou o uso em escala mundial da WEB.</p> <span id="pontos0"></span><span class="mais0" style="display: none">
+                    
+            <p class="text">Como funciona
+            O HTML é uma linguagem de marcação. Estas linguagens são constituídas de códigos que delimitam conteúdos específicos, segundo uma sintaxe própria. O HTML tem códigos para criar paginas na web. Estes códigos que definem o tipo de letra, qual o tamanho, cor, espaçamento, e vários outros aspectos do site. No início era muito complicado aprender HTML, pois eram muitos comandos para fazer algo simples. A cada nova versão, o HTML fica mais fácil de utilizar, e adquire mais funções. Atualmente qualquer pessoa pode acessar a internet a aprender a construir um site básico em questão de horas, seguindo os passos de tutoriais e aprendendo as funções de cada código. </p>
+                    
+            <p class="text">O HTML foi a primeira linguagem de nível mundial, porem não é a única. Existem muitas outras linguagens destinadas á criação de paginas da web, porém o HTML ainda prevalece. Atualmente já é possível integrar varias linguagens na mesma pagina da Web, sendo possível usar duas ou mais linguagens no mesmo site.</p>
+              
+            <p class="text">Para criar e editar códigos em HTML é necessário qualquer editor de texto comum, como bloco de notas. Para testar os códigos, basta salvar o arquivo em formato .HTML e executar. Para o teste é necessário ter um navegador configurado como padrão. Não é necessária internet, pois o arquivo com os códigos esta na maquina onde esta sendo executado.</p>
+         </p>
+            Fonte: <a href="https://www.infoescola.com/informatica/html/"> infoescola.com</a>
+            </span>
+
+        <div class="btn0"> 
+          <p class="text"></p>
+          <button onclick="leiaMais('0')" id="btn0">Continuar leitura..</button>
+        </div> 
+        <p class="separa"></p>
+      </div>
+
+    <div class="exemplo" id="aberto1" ><!--css-->
+        <div class="titulo"><img src="imagem/css titulo.png" alt="titulo"></div> 
+        <div class="imagem"><img src=" imagem/css.png" alt="css"></div>
+        
+
+          <p id="texto">        
+             <p class="text">O Que é CSS?
+             CSS é uma linguagem de estilos usada para estilizar elementos de uma página desenvolvida com uma linguagem de marcação, como o HTML. O que ela faz é separar a parte estrutural escrita, ou seja, o conteúdo, da parte visual, ou seja, o design gráfico dessa mesma página.</p> <span id="pontos1"></span><span class="mais1" style="display: none">
+
+            <p class="text">A expressão cascata da nomenclatura indica que é possível usar mais de um arquivo CSS ao mesmo tempo para criar o estilo visual de um site. É o CSS que estipula o visual dele, incluindo elementos como tamanho da fonte, imagens de fundo e estilo de cores.</p>
+
+            <p class="text">A linguagem CSS tem muitas possibilidades de formatação. Ela permite mexer, editar, remover, alinhar ou trabalhar no espaçamento dos elementos de uma página de forma prática e fácil.</p>
+
+            <p class="text">Isso garante mais flexibilidade e agilidade não apenas para os elementos textuais e gráficos que constituem essa mesmo página, mas também para profissionais que trabalham com essa linguagem de estilos, por isso que desenvolvedores, sejam iniciantes ou experientes, costumam usá-la nos seus projetos online. Sites, blogs e ecommerce frequentemente são feitas com folha de estilo CSS, além de outras linguagens.</p>
+          </p>
+
+         Fonte: <a href="https://www.weblink.com.br/blog/programacao/o-que-e-css/"> weblink.com.br</a>
+        </span> 
+       
+          <div class="btn0">
+            <p class="text"></p> 
+            <button onclick="leiaMais('1')" id="btn0">Continuar leitura..</button>
+          </div>
+          <p class="separa"></p>
+        </div>
+
+  <div class="exemplo" id="aberto2"> <!--java script-->
+        <div class="titulojs"><img src="imagem/JavaScript Titulo.png" width="500px" alt="Java"></div>
+        <div class="imagem"><img src="imagem/js.png" alt="js"></div><br><p class="separa"></p>
+        
+        <p class="text">
+         JavaScript </p>
+         <p class="text"> JavaScript (ou "JS") é uma linguagem de programação utilizada principalmente para scripts dinâmicos do lado do cliente em páginas web, podendo também ser utilizada no lado do servidor, usando um interpretador (em inglês: runtime) como o Node.js. </p> <span id="pontos2"></span><span class="mais2" style="display:none">
+
+         <p class="text"> O JavaScript não deve ser confundido com a linguagem de programação Java. Apesar de "Java" e "JavaScript" serem marcas comerciais (ou marcas registradas) da Oracle nos EUA e em outros países, essas duas linguagens de programação são significativamente diferentes em sintaxe, semântica e casos de uso.</p>
+
+         <p class="text">O JavaScript é utilizado principalmente no navegador, permitindo que os desenvolvedores manipulem o conteúdo de uma página web por meio do DOM, manipulem dados com o AJAX e o IndexedDB, desenhem gráficos com o canvas (en-US), interajam com o dispositivo que está executando o navegador através de várias APIs e muito mais. JavaScript é uma das linguagens mais utilizadas no mundo, devido ao recente crescimento e melhoria de desempenho das APIs disponíveis nos navegadores.</p>
+
+          <p class="text">Origem e História
+         Concebido como uma linguagem do lado do servidor por Brendan Eich (então empregado pela Netscape Corporation), o JavaScript logo chegou ao Netscape Navigator 2.0 em setembro de 1995. O JavaScript obteve sucesso imediato e o Internet Explorer 3.0 (en-US) introduziu o suporte ao JavaScript sob o nome JScript em agosto de 1996.</p>
+
+          <p class="text">Em novembro de 1996, a Netscape começou a trabalhar com a ECMA International para tornar o JavaScript um padrão do setor. Desde então, o JavaScript padronizado é chamado de ECMAScript e especificado sob a ECMA-262, cuja última edição (décima primeira, ES2020) está disponível desde junho de 2020.</p>
+
+          <p class="text">Recentemente, a popularidade do JavaScript se expandiu ainda mais através do bem-sucedido Node.js, o interpretador multiplataforma mais popular de ambiente de execução JavaScript fora do navegador. Node.js foi criado utilizando o V8 Javascript Engine permitindo que os desenvolvedores utilizem o JavaScript como linguagem de script para automatizar as coisas em um PC e criar servidores HTTP e WebSocket (en-US) totalmente funcionais.</p> <br>
+        
+         Fonte: <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/JavaScript">developer.mozilla.org</a> 
+       </span> 
+
+   <div> 
+    <p class="text"></p>
+      <button onclick="leiaMais('2')" id="btn0">Continuar leitura..</button>
+    </div>
+    <p class="separa"></p>
+  </div>
+ </section>
+
+ <!--rodapé do site-->
+
+ <section class="rodape">
+  <div container>
+      <ul>
+          <li class="code"><h2>Code</h2>
+           <p>A Code Dev sempre busca melhorar seus servirços e satifazer seus clientes</p>
+           <img class="up" src="imagem/A code" alt="up">
+          </li>
+   
+        <div>
+           <a href="index.html"><img class="imagem-do-rodape" src="imagem/logo.png" alt="A Code"></a>   
+           <p class="feita">© Code Dev 2021 / Feita por: <a href="https://github.com/EvanderInacio">Evander Inácio<img id="ei" src="imagem/E.I_Logotipo.png" alt="Meu_logo"></a></p>
+        </div>
+
+        <div class="unidade">
+          <h2>Unidade:</h2> 
+          <p>Avenida Novos Conhecimentos <br> nº 2016</p> <br>
+          <h2>Telefone:</h2>
+          <p>+ 55 11 9999-9999</p>
+      </div> <br>
+
+       <div class="contato"> <h2>Redes Sociais:</h2>
+           <a href="#"><img src="imagem/icoface.png" alt="face"></a>
+           <a href="#"><img src="imagem/icoinsta.png" alt="insta"></a>
+         </div>
+      </ul>
+  </div>
+
+</section>
 
 </body>
 </html>

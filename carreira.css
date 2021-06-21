@@ -1,0 +1,251 @@
+*{
+margin: 0; 
+padding: 0;
+color: rgb(0, 0, 0);
+font-family: sans-serif;
+font-size: 21px;
+text-align: left;
+font-style:normal;
+} 
+
+header { 
+    width: 100%; 
+    height: 80px; 
+    background-color: #2c2c2c; 
+    position: absolute; 
+    top: 0;
+} 
+
+.color-page{background-color: #ffffff;}
+
+.logo {
+    position: absolute; 
+    width: 230px; 
+    height: auto; 
+    left: 70px; 
+    top: 1px; 
+}    
+
+.logo img{ 
+    width: 90%; 
+    margin-left: 10%; 
+}  
+    
+nav{
+    position:absolute;  
+    right: 100px;  
+    top: -10px;
+} 
+
+nav ul li {  
+    float: left; 
+    color: rgb(245, 13, 13); 
+    width: auto; 
+    margin: 0.8em; 
+    font-size: 1.5em; 
+    font-family: "Verdana"; 
+    list-style: none;
+}
+
+nav ul li a { 
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: #ff0101;
+    border-bottom: 4px rgb(155, 30, 228) solid;
+} 
+
+#txt-contato{
+    width: 100%;
+    height: 100%;
+}
+
+/* formulario*/
+
+#txt-contato form{
+    width: 40%; 
+    position: relative; 
+    margin-left: 700px; 
+    background-color: #ffffff; 
+    padding: 40px; 
+    top: 90px; 
+    min-height: 100px;
+}
+
+#txt-contato form label{font-weight:bolder;}
+
+#txt-contato form input{
+    width: 100%;  
+    height: 50px; 
+    margin-top: 15px; 
+    margin-bottom: 25px; 
+    border: solid #000000 2px; 
+    padding-left: 2%;
+} 
+
+#txt-contato form textarea{ 
+    max-width: 100%; 
+    width: 100%; 
+    border: solid #000000 2px; 
+    padding-left: 2%; 
+    min-height: 100px;
+}
+
+#nomeid, #foneid, #emailid{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.curriculo{
+    padding-top: 10px;
+    border-radius:15px;
+}
+
+
+
+
+#txt-contato form button{
+    background-color:rgb(78, 89, 236);
+    color: #000000;
+    width: 130px;
+    height: 60px;
+    border: 0px #ffffff solid;
+    border-radius: 10px;
+    text-align: center;
+    top: 50%;
+    bottom: 50%;
+    margin-top: -200;
+    margin-bottom:-100;
+    margin-left: 200px;
+    padding-bottom: -10px;
+}
+
+#txt-contato form button a{ text-decoration: none;}
+
+#txt-contato form button:hover{
+    background-color: rgb(114, 114, 114);
+    color: rgb(12, 12, 12);
+    border: 5px #000 solid;
+    cursor: pointer;
+}
+
+ /* texto vem ser code*/
+
+ .vem-ser-code{
+    width: 600px;
+    height: auto;
+    margin-block-start: -380px;
+    margin-left: 50px;
+}
+
+.vem-ser-code p{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.vem-ser-code h2{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+/*Rodapé do site*/
+.rodape{
+    margin-top: 20%;
+    width: 100%;
+    height:300px;
+    background-color: #2c2c2c;
+    position: absolute;
+}
+
+.code{
+    float: left;
+    width: 30%;
+    height:auto;
+    color: white;
+    padding-left: 25px;
+}
+
+.code h2{
+   font-size: 40px;
+   padding-left: 100px;
+   color: white;
+}
+.code p{
+    font-family: sans-serif;
+    color: white;
+}
+
+.up{
+    width: 260px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.imagem-do-rodape{
+    width:300px;
+    height: auto;
+    padding-right: 500px;
+    margin-left: 5em;
+    
+}
+
+.feita{
+    display: block;
+    width: 450px;
+    height: auto;
+    float: left;
+    margin-top: 130px;
+    margin-right: 5em;
+    color: white;
+}
+
+#ei{
+    display: block;
+    width: 80px;
+    margin-left:405px;
+    margin-top: -50px;
+}
+
+.feita a{text-decoration: none; color:white;}
+.feita a:hover{ color: rgb(0, 4, 255);}
+
+.contato{
+    float: right;
+    padding-right: 1px;
+    margin-block-start: 10px;
+    width: auto;  
+}
+
+.contato img{
+    padding-top: 20px;
+    width: 60px;
+    padding-left: 25px ;
+    
+}
+
+.contato h2{
+    font-size: 30px;
+   padding-right: 100px;
+   color: white;
+}
+
+.unidade{
+    float: right;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-block-start: -90px;
+}
+
+.unidade p{
+    color: white;
+}
+
+.unidade h2{
+    font-size: 30px;
+   
+   color: white;
+}
